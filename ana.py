@@ -3,6 +3,8 @@ import pandas as pd
 import json
 from importlib import import_module
 
+
+st.set_page_config(page_title="Social Media Profile Analyzer", page_icon="🔍", layout="centered")
 # Import social-analyzer dynamically
 SocialAnalyzer = import_module("social-analyzer").SocialAnalyzer()
 
